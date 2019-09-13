@@ -1,11 +1,13 @@
 import React from 'react';
 import './App.css';
+import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 
 const App: React.FC = () => {
   return (
-    <React.Fragment>
-      Hello world
-    </React.Fragment>
+    
+      <Router>
+
+      </Router>
   );
 }
 
