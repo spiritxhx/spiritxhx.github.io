@@ -2,12 +2,12 @@ import React from 'react';
 import './App.css';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 
-import Navbar from './component/Navbar';
+import NavComponent from './component/NavComponent';
 
 const App: React.FC = () => {
   return (
     <React.Fragment>
-      <Navbar />
+      <NavComponent />
       <Router>
 
       </Router>
