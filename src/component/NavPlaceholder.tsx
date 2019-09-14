@@ -1,5 +1,5 @@
 import React from 'react'
-import '../style/NavPlaceholder';
+import '../style/navPlaceholder.scss';
 
 export default function NavPlaceholder() {
   return (
