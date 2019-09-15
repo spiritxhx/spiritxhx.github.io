@@ -1,14 +1,14 @@
-.wrapper{
-  width:100%;
+.wrapper {
+  width: 100%;
 }
 
-#sidebar{
+#sidebar {
   width: 30%;
   position: fixed;
   height: 100vh;
   background: linear-gradient(#262e51, #306eae);
   scroll-behavior: disable;
-  .text-center{
+  .text-center {
     color: azure;
   }
 }
