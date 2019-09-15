@@ -10,7 +10,7 @@ export default function NavComponent() {
     //   </a>
 
     // </div>
-    <Navbar bg="light" expand="lg" fixed="top" className="big-nav">
+    <Navbar bg="light" expand="md" fixed="top" className="big-nav">
       <Navbar.Brand href="/">Hans(Hanxiang) Xu</Navbar.Brand>
       <Navbar.Toggle aria-controls="collapse-nav" />
       <Navbar.Collapse id="collapse-nav" className="justify-content-end">

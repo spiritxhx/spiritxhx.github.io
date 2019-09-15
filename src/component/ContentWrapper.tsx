@@ -7,9 +7,9 @@ export default function ContentWrapper() {
     <React.Fragment>
       <div className="wrapper">
         <nav id="sidebar" className="col-md-4 col-12">
-          <div className="text-right mt-5">
+          <h3 className="text-right mt-4">
             Hi I'm Hans
-          </div>
+          </h3>
           <div className="text-right mt-3">
             A Junior Full Stack Developer
           </div>
