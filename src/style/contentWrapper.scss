@@ -15,7 +15,7 @@
   }
 }
 
-.content{
+.content {
   margin-left: 33.3%;
 }
 
@@ -25,27 +25,36 @@
 //   }
 // }
 
-@media(max-width: 769px){
-  #sidebar{
+@media (max-width: 769px) {
+  #sidebar {
     height: 35vh;
     width: 100%;
     max-width: 100%;
-    .text-right{
-      text-align: center!important;
+    .text-right {
+      text-align: center !important;
     }
   }
-  .content{
+  .content {
     margin-left: 0;
-    .aboutme{
+    .aboutme {
       padding-top: 35vh;
     }
   }
 }
 
-@media(min-width:1210px){
-  .content{
-    margin-left: 400px;
+@media (max-width: 500px) {
+  #sidebar {
+    height: 15vh;
+  }
+  .content {
+    .aboutme {
+      padding-top: 15vh;
+    }
   }
 }
 
-
+@media (min-width: 1210px) {
+  .content {
+    margin-left: 400px;
+  }
+}
