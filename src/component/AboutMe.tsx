@@ -1,11 +1,36 @@
-import React from 'react'
+import React from "react";
 
 export default function AboutMe() {
   return (
     <React.Fragment>
-      <h1 className="text-left text-capitalize">
-        About me
-      </h1>
+      <div className="container">
+        <h1 className="text-left text-capitalize">About me</h1>
+        <h1>test</h1>
+        <h1>test</h1>
+        <h1>test</h1>
+        <h1>test</h1>
+        <h1>test</h1>
+        <h1>test</h1>
+        <h1>test</h1>
+        <h1>test</h1>
+        <h1>test</h1>
+        <h1>test</h1>
+        <h1>test</h1>
+        <h1>test</h1>
+        <h1>test</h1>
+        <h1>test</h1>
+        <h1>test</h1>
+        <h1>test</h1>
+        <h1>test</h1>
+        <h1>test</h1>
+        <h1>test</h1>
+        <h1>test</h1>
+        <h1>test</h1>
+        <h1>test</h1>
+        <h1>test</h1>
+        <h1>test</h1>
+        <h1>test</h1>
+      </div>
     </React.Fragment>
-  )
+  );
 }

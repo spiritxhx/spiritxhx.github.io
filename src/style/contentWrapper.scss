@@ -12,3 +12,13 @@
     color: azure;
   }
 }
+
+@media(max-width: 769px){
+  #sidebar{
+    height: 35vh;
+  }
+}
+
+.content{
+  margin-left: 30%;
+}
