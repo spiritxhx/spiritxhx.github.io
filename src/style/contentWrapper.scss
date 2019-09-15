@@ -3,22 +3,31 @@
 }
 
 #sidebar {
-  width: 30%;
+  // width: 30%;
   position: fixed;
   height: 100vh;
   background: linear-gradient(#262e51, #306eae);
   scroll-behavior: disable;
-  .text-center {
+  z-index: 10000;
+  .text-right {
     color: azure;
   }
+}
+
+.content{
+  margin-left: 33.3%;
 }
 
 @media(max-width: 769px){
   #sidebar{
     height: 35vh;
   }
+  .content{
+    margin-left: 0;
+    .aboutme{
+      padding-top: 35vh;
+    }
+  }
 }
 
-.content{
-  margin-left: 30%;
-}
+

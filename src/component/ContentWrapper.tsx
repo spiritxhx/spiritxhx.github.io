@@ -6,15 +6,15 @@ export default function ContentWrapper() {
   return (
     <React.Fragment>
       <div className="wrapper">
-        <nav id="sidebar">
-          <div className="text-center mt-5">
+        <nav id="sidebar" className="col-md-4 col-12">
+          <div className="text-right mt-5">
             Hi I'm Hans
           </div>
-          <div className="text-center mt-3">
+          <div className="text-right mt-3">
             A Junior Full Stack Developer
           </div>
         </nav>
-        <div className="content">
+        <div className="content col-md-8 col-12">
           <AboutMe />
         </div>
       </div>
