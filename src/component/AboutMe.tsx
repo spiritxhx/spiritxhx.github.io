@@ -3,7 +3,7 @@ import React from "react";
 export default function AboutMe() {
   return (
     <React.Fragment>
-      <div className="container-fluid aboutme">
+      <div className="aboutme mb-4">
         <h2 className="text-left text-capitalize pt-3">About me</h2>
         <p>
           Full-stack developer with a master and bachelor degree in electrical
