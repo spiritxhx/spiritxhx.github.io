@@ -1,6 +1,7 @@
 import React from "react";
 import "../style/contentWrapper.scss";
 import AboutMe from "./AboutMe";
+import ProjectList from "./ProjectList";
 
 export default function ContentWrapper() {
   return (
@@ -14,6 +15,7 @@ export default function ContentWrapper() {
           <div className="container-fluid">
             <AboutMe />
             <hr />
+            <ProjectList />
           </div>
         </div>
       </div>
