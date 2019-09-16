@@ -1,6 +1,14 @@
-import React from 'react'
+import React from 'react';
 
-export default function Project() {
+interface projectInfo{
+  name: string;
+  description: string;
+  gitUrl: string;
+  liveUrl: string;
+  screenshot: string
+}
+
+export default function Project(props: projectInfo) {
   return (
     <div>
       

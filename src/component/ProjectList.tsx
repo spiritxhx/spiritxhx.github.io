@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import {data} from "../data/mockData";
 
 export default function ProjectList() {
   return (
