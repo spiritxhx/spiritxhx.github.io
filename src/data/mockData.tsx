@@ -7,7 +7,7 @@ export const data = [
     gitUrl: "https://github.com/spiritxhx/scheduler",
     liveUrl: "https://hanscheduler.netlify.com/",
     screenshot:
-      "/public/screenshots/scheduler.png"
+      "/screenshots/scheduler.png"
   },
   {
     id: 2,
@@ -17,7 +17,7 @@ export const data = [
     gitUrl: "https://github.com/spiritxhx/PhoneStore",
     liveUrl: "https://react-mobile-store-hanxiang.netlify.com",
     screenshot:
-      "/public/screenshots/phone_store.png"
+      "/screenshots/phone_store.png"
   },
   {
     id: 3,
@@ -27,7 +27,7 @@ export const data = [
     gitUrl: "https://github.com/spiritxhx/schoodle",
     liveUrl: "",
     screenshot:
-      "/public/screenshots/schoodle.png"
+      "/screenshots/schoodle.png"
   },
   {
     id: 4,

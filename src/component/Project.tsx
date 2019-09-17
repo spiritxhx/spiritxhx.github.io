@@ -13,6 +13,7 @@ interface projectInfo{
 export default function Project(props: projectInfo) {
   return (
     <div className="col-9 mx-auto col-md-6 col-lg-6 my-3">
+      <img src={props.screenshot} alt={props.name} className="img-fluid" />
       {props.name}
     </div>
   )
