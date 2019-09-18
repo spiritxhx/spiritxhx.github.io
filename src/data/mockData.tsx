@@ -33,7 +33,7 @@ export const data = [
       "A mini e-commerce application which allows users to view and purchase products with Stripe verification. Admins can add products and categories. ",
     gitUrl: "https://github.com/spiritxhx/Jungle",
     liveUrl: "https://jungle-hans.herokuapp.com/",
-    screenshot: ""
+    screenshot: "/screenshots/JungleMainPage.png"
   }, 
   {
     id: 5, 
