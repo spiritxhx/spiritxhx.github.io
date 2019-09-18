@@ -22,13 +22,15 @@
     background-color: rgb(119, 119, 119);
     height: 2px;
   }
+  .card-img-top{
+    transition: all 1s linear;
+  }
+  .card-footer{
+    background: transparent;
+    border-top: transparent;
+    transition: all 1s linear;
+  }
 }
-
-// @media(max-width: 960px){
-//   .content{
-//     margin-left: 0;
-//   }
-// }
 
 @media (max-width: 769px) {
   #sidebar {
