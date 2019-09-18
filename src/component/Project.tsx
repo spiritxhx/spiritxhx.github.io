@@ -11,14 +11,18 @@ interface projectInfo {
 }
 
 export default function Project(props: projectInfo) {
-  const {name, gitUrl, liveUrl, description, screenshot} = props;
+  const { name, gitUrl, liveUrl, description, screenshot } = props;
   return (
-    <div className="col-12 mx-auto col-md-6 col-lg-6 my-3">
+    <div className="col-10 mx-auto col-md-5 col-lg-5 my-3">
       <h4 className="text-capitalize">{name}</h4>
       <img src={screenshot} alt={name} className="card-img-top" />
       <div className="card-footer d-flex justify-content-between">
-        <a href={gitUrl} target="_blank"><Button>Github</Button></a>
-        <a href={liveUrl} target="_blank"><Button>Live Link</Button></a>
+        <a href={gitUrl} target="_blank" rel="noopener noreferrer">
+          <Button>Github</Button>
+        </a>
+        <a href={liveUrl} target="_blank" rel="noopener noreferrer">
+          <Button>Live Link</Button>
+        </a>
       </div>
     </div>
   );
