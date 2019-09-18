@@ -29,6 +29,12 @@ export default function ContactMe() {
             <Form.Control type="phonenumber" placeholder="Enter your phone number" />
           </Form.Group>
         </Form.Row>
+        <Form.Row>
+          <Form.Group as={Col} controlId="formMessage">
+            <Form.Label>Message</Form.Label>
+            <Form.Control as="textarea" rows="4" />
+          </Form.Group>
+        </Form.Row>
       </Form>
     </React.Fragment>
   );
