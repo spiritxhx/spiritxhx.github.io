@@ -1,5 +1,6 @@
 import React from "react";
 import { Button } from "./Button";
+import {ProjectWrapper} from "./ProjectWrapper"
 
 interface projectInfo {
   id: number;
@@ -13,7 +14,7 @@ interface projectInfo {
 export default function Project(props: projectInfo) {
   const { name, gitUrl, liveUrl, description, screenshot } = props;
   return (
-    <div className="col-10 mx-auto col-md-5 col-lg-5 my-3">
+    <ProjectWrapper className="col-10 mx-auto col-md-6 col-lg-5 my-3">
       <h4 className="text-capitalize">{name}</h4>
       <img src={screenshot} alt={name} className="card-img-top" />
       <div className="card-footer d-flex justify-content-between">
@@ -24,6 +25,6 @@ export default function Project(props: projectInfo) {
           <Button>Live Link</Button>
         </a>
       </div>
-    </div>
+    </ProjectWrapper>
   );
 }
