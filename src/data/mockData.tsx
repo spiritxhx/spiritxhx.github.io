@@ -34,5 +34,13 @@ export const data = [
     gitUrl: "https://github.com/spiritxhx/Jungle",
     liveUrl: "https://jungle-hans.herokuapp.com/",
     screenshot: ""
+  }, 
+  {
+    id: 5, 
+    name: "spa de la rue", 
+    description: "A web platform simplifying the organization of non-profit events and improving the coordination of a team of multiple volunteers.", 
+    gitUrl: "https://github.com/SebDufresne/spa-de-la-rue", 
+    liveUrl: "",
+    screenshot: "/screenshots/Le_Spa_de_la_Rue_main_page.png"
   }
 ];
