@@ -8,25 +8,15 @@ export default function ContactMe() {
       <Form>
         <Form.Row>
           <Form.Group as={Col} md="6" controlId="formFirstName">
-            <Form.Label>First Name</Form.Label>
+            <Form.Label>Name</Form.Label>
             <Form.Control
-              type="firstname"
-              placeholder="Enter your first name"
+              type="name"
+              placeholder="Enter your name"
             />
           </Form.Group>
-          <Form.Group as={Col} md="6" controlId="formLastName">
-            <Form.Label>Last Name</Form.Label>
-            <Form.Control type="lastname" placeholder="Enter your last name" />
-          </Form.Group>
-        </Form.Row>
-        <Form.Row>
           <Form.Group as={Col} md="6" controlId="formEmail">
             <Form.Label>Email</Form.Label>
             <Form.Control type="email" placeholder="Enter your email" />
-          </Form.Group>
-          <Form.Group as={Col} md="6" controlId="formEmail">
-            <Form.Label>Phone Number</Form.Label>
-            <Form.Control type="phonenumber" placeholder="Enter your phone number" />
           </Form.Group>
         </Form.Row>
         <Form.Row>
