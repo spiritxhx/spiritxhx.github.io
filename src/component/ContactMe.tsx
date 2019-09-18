@@ -19,6 +19,12 @@ export default function ContactMe() {
             <Form.Control type="lastname" placeholder="Enter your last name" />
           </Form.Group>
         </Form.Row>
+        <Form.Row>
+          <Form.Group as={Col} controlId="formEmail">
+            <Form.Label>Email</Form.Label>
+            <Form.Control type="email" placeholder="Enter your email" />
+          </Form.Group>
+        </Form.Row>
       </Form>
     </React.Fragment>
   );
