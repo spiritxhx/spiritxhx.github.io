@@ -1,10 +1,10 @@
-import React from 'react';
-import './App.css';
-import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+import React from "react";
+import "./App.css";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import NavPlaceholder from "./component/NavPlaceholder";
 import ContentWrapper from "./component/ContentWrapper";
 
-import NavComponent from './component/NavComponent';
+import NavComponent from "./component/NavComponent";
 
 const App: React.FC = () => {
   return (
@@ -16,6 +16,6 @@ const App: React.FC = () => {
       </Router>
     </React.Fragment>
   );
-}
+};
 
 export default App;

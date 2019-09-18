@@ -1,13 +1,13 @@
-import React from 'react';
-import {Button} from "./Button";
+import React from "react";
+import { Button } from "./Button";
 
-interface projectInfo{
+interface projectInfo {
   id: number;
   name: string;
   description: string;
   gitUrl: string;
   liveUrl: string;
-  screenshot: string
+  screenshot: string;
 }
 
 export default function Project(props: projectInfo) {
@@ -16,5 +16,5 @@ export default function Project(props: projectInfo) {
       <img src={props.screenshot} alt={props.name} className="img-fluid" />
       {props.name}
     </div>
-  )
+  );
 }
