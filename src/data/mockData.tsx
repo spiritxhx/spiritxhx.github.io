@@ -25,22 +25,22 @@ export const data = [
     gitUrl: "https://github.com/spiritxhx/schoodle",
     liveUrl: "",
     screenshot: "/screenshots/schoodle.png"
+  }, 
+  {
+    id: 4, 
+    name: "spa de la rue", 
+    description: "A web platform simplifying the organization of non-profit events and improving the coordination of a team of multiple volunteers.", 
+    gitUrl: "https://github.com/SebDufresne/spa-de-la-rue", 
+    liveUrl: "",
+    screenshot: "/screenshots/Le_Spa_de_la_Rue_main_page.png"
   },
   {
-    id: 4,
+    id: 5,
     name: "Jungle",
     description:
       "A mini e-commerce application which allows users to view and purchase products with Stripe verification. Admins can add products and categories. ",
     gitUrl: "https://github.com/spiritxhx/Jungle",
     liveUrl: "https://jungle-hans.herokuapp.com/",
     screenshot: "/screenshots/JungleMainPage.png"
-  }, 
-  {
-    id: 5, 
-    name: "spa de la rue", 
-    description: "A web platform simplifying the organization of non-profit events and improving the coordination of a team of multiple volunteers.", 
-    gitUrl: "https://github.com/SebDufresne/spa-de-la-rue", 
-    liveUrl: "",
-    screenshot: "/screenshots/Le_Spa_de_la_Rue_main_page.png"
   }
 ];
