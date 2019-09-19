@@ -1,10 +1,10 @@
 import React from "react";
-import { Form, Col } from "react-bootstrap";
+import { Form, Col, Button } from "react-bootstrap";
 
 export default function ContactMe() {
   return (
     <React.Fragment>
-      <h2>Contact me</h2>
+      <h2 className="my-5">Get In Touch</h2>
       <Form>
         <Form.Row>
           <Form.Group as={Col} md="6" controlId="formFirstName">
@@ -25,6 +25,9 @@ export default function ContactMe() {
             <Form.Control as="textarea" rows="4" />
           </Form.Group>
         </Form.Row>
+        <Button variant="primary" type="submit">
+          Submit
+        </Button>
       </Form>
     </React.Fragment>
   );
