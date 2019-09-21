@@ -1,5 +1,5 @@
 import React from "react";
-import { data } from "../data/mockData";
+import { data } from "../../data/mockData";
 import Project from "./Project";
 
 interface projectInfo {

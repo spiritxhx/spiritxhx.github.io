@@ -1,7 +1,7 @@
 import React from "react";
 import "../style/contentWrapper.scss";
 import AboutMe from "./AboutMe";
-import ProjectList from "./ProjectList";
+import ProjectList from "./project/ProjectList";
 import ContactMe from "./ContactMe";
 
 export default function ContentWrapper() {
