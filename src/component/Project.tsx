@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { Button } from "./Button";
 import { ProjectWrapper } from "./ProjectWrapper";
 
@@ -13,6 +13,15 @@ interface projectInfo {
 
 export default function Project(props: projectInfo) {
   const { name, gitUrl, liveUrl, description, screenshot } = props;
+  //set the showing status of the modal
+  const [show, setShow] = useState(false);
+  const handleClose = () => {
+    setShow(false);
+  };
+  const handleShow = () => {
+    setShow(true);
+  };
+
   return (
     <ProjectWrapper className="col-10 mx-auto col-md-6 col-lg-5 my-3">
       <h4 className="text-capitalize">{name}</h4>
