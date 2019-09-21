@@ -1,6 +1,6 @@
 import React from "react";
 import { Button } from "./Button";
-import {ProjectWrapper} from "./ProjectWrapper"
+import { ProjectWrapper } from "./ProjectWrapper";
 
 interface projectInfo {
   id: number;

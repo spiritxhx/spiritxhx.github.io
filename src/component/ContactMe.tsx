@@ -9,10 +9,7 @@ export default function ContactMe() {
         <Form.Row>
           <Form.Group as={Col} md="6" controlId="formFirstName">
             <Form.Label>Name</Form.Label>
-            <Form.Control
-              type="name"
-              placeholder="Enter your name"
-            />
+            <Form.Control type="name" placeholder="Enter your name" />
           </Form.Group>
           <Form.Group as={Col} md="6" controlId="formEmail">
             <Form.Label>Email</Form.Label>
