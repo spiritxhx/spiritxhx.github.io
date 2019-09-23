@@ -39,6 +39,12 @@ export default function Project(props: projectInfo) {
         <Modal.Header>
           Detail of {name}
         </Modal.Header>
+        <Modal.Body>
+          {description}
+        </Modal.Body>
+        <Modal.Footer>
+          
+        </Modal.Footer>
       </Modal>
     </ProjectWrapper>
   );
