@@ -22,7 +22,7 @@ export default function NavComponent() {
           >
             Resume
           </Nav.Link>
-          <Nav.Link href="/">Project</Nav.Link>
+          <Nav.Link href="/projects">Project</Nav.Link>
         </Nav>
       </Navbar.Collapse>
     </Navbar>
