@@ -1,9 +1,25 @@
-import React from 'react'
+import React from "react";
+import { data } from "../../data/mockData";
+import Project from "./Project";
 
-export default function AllProject() {
+interface projectInfo {
+  id: number;
+  name: string;
+  description: string;
+  gitUrl: string;
+  liveUrl: string;
+  screenshot: string;
+}
+
+export default function ProjectList() {
   return (
-    <div>
-      Hello from AllProject!
-    </div>
-  )
+    <React.Fragment>
+      <h2 className="text-center my-3">Projects</h2>
+      <div className="row">
+        {data.map((project: projectInfo, index) => {
+          return <Project {...project} key={index} />;
+        })}
+      </div>
+    </React.Fragment>
+  );
 }
