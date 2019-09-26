@@ -13,7 +13,9 @@ const App: React.FC = () => {
       <NavComponent />
       <NavPlaceholder />
       <Router>
-        <ContentWrapper />
+        <Switch>
+          <Route exact path="/" component={ContentWrapper} />
+        </Switch>
       </Router>
     </React.Fragment>
   );
