@@ -43,7 +43,7 @@ export default function Project(props: projectInfo) {
           {description}
         </Modal.Body>
         <Modal.Footer>
-          
+          <Button onClick={handleClose}>Close</Button>
         </Modal.Footer>
       </Modal>
     </ProjectWrapper>
