@@ -22,7 +22,7 @@ export default function ContactMe() {
             <Form.Control as="textarea" rows="4" />
           </Form.Group>
         </Form.Row>
-        <Button variant="primary" type="submit">
+        <Button variant="primary" type="submit" className="mb-3">
           Submit
         </Button>
       </Form>
