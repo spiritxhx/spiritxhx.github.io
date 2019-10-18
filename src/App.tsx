@@ -10,7 +10,7 @@ import NavComponent from "./component/NavComponent";
 
 const App: React.FC = () => {
   return (
-    <React.Fragment>
+    <>
       <NavComponent />
       <NavPlaceholder />
       <Router>
@@ -19,7 +19,7 @@ const App: React.FC = () => {
           <Route path="/projects" component={Allproject} />
         </Switch>
       </Router>
-    </React.Fragment>
+    </>
   );
 };
 

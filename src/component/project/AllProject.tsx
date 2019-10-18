@@ -13,13 +13,13 @@ interface projectInfo {
 
 export default function ProjectList() {
   return (
-    <React.Fragment>
+    <>
       <h2 className="text-center my-3">Projects</h2>
       <div className="row">
         {data.map((project: projectInfo, index) => {
           return <Project {...project} key={index} />;
         })}
       </div>
-    </React.Fragment>
+    </>
   );
 }

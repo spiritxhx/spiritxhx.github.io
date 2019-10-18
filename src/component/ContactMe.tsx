@@ -3,7 +3,7 @@ import { Form, Col, Button } from "react-bootstrap";
 
 export default function ContactMe() {
   return (
-    <React.Fragment>
+    <>
       <h2 className="my-5">Get In Touch</h2>
       <Form>
         <Form.Row>
@@ -26,6 +26,6 @@ export default function ContactMe() {
           Submit
         </Button>
       </Form>
-    </React.Fragment>
+    </>
   );
 }
