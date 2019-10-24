@@ -16,7 +16,7 @@ export default function ProjectList() {
     <>
       <h2 className="text-center my-3">Projects</h2>
       <div className="row">
-        {data.map((project: projectInfo, index) => {
+        {data.map((project: projectInfo, index: number) => {
           return <Project {...project} key={index} />;
         })}
       </div>
